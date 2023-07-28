@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/gradiant_a">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" android:layout_gravity="top|right"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_marginTop="16dp" android:layout_marginRight="16dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="$74"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp">
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textSize="13sp"
+                android:textColor="#fff">
+            </TextView>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"></TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Bintang Laut Resort berlokasi di Pantai Carita, tepatnya di Jalan Raya Carita KM 172, Caringin, Carita, Kabupaten Pandeglang, Resort ini menyajikan beragam cottage dan sederet fasilitas lain, seperti kolam renang, permandian air panas, serta area memancing, Para tamu yang mencari resort pantai dekat Jakarta juga bisa mendapatkan pemandangan cantik jika menginap, yakni panorama Gunung Krakatau yang terletak di Selat Sunda. Dikutip dari Sejumlah Online Travel Agent (OTA), harga sewa per malamnya dimulai dari sekitar Rp 800.000, tergantung pilihan cottage dan periode menginap.Pantai barat Jawa adalah tempat yang populer mendapatkan - jauh dan jadi kami memutuskan untuk pergi ke Bintang Laut Resort. Berbagai - dari 8 cottages membangun 20 tahun yang lalu dan sangat terawat. di dalam yang buruk Baru saja lukisan dinding yang dilakukan, tetapi kamar mandinya dan perabotan sudah sangat tua. BBQ yang jatuh selain dan handuk di permintaan. Saya dapat membayangkan jika kelompok-kelompok yang lebih besar datang sampah yang mereka buat. Memalukan karena tempat ini bisa untuk beberapa pondok yang bagus jadi nama resort adalah benar. Tidak akan kembali lagi,Pertama kali tinggal di sini, mereka memiliki pemandangan luar biasa untuk Sunset. Vila yang kami tempati adalah tiga kamar tidur dan memiliki kolam renang sendiri plus jacuzzi. Di kolam utama mereka, mereka memiliki kolam air panas untuk duduk dan bersantai. Jika Anda perlu menghabiskan waktu dengan teman-teman kantor Anda sarankan untuk tinggal selama hari kerja karena tempat ini belum memiliki banyak tamu sehingga Anda dapat bermain bebas di bidang mereka. Mereka juga menjual Banana Boat dan Donat satu dengan harga yang wajar dibandingkan dengan area umum di Anyer. Merekomendasikan untuk perusahaan outbound"></TextView>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:textColor="#ffffff"
+        android:text="Book Now!!!"></Button>
+</LinearLayout>
